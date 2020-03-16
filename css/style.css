@@ -1927,13 +1927,12 @@ header {
 .man-call-icon {
   width: 50px;
   height: 50px;
-  background-image: url(../images/call.png);
+  background-image: url(../images/call_1.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 70% 70%;
   border-radius: 30px;
   margin: auto;
-  box-shadow: 3px 3px 3px cornflowerblue;
 }
 .woman-call-wrap {
   width: 80px;
@@ -1942,13 +1941,12 @@ header {
 .woman-call-icon {
   width: 50px;
   height: 50px;
-  background-image: url(../images/call.png);
+  background-image: url(../images/call_2.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 70% 70%;
   border-radius: 30px;
   margin: auto;
-  box-shadow: 3px 3px 3px pink;
 }
 .man-message-wrap {
   width: 80px;
@@ -1957,13 +1955,12 @@ header {
 .man-message-icon {
   width: 50px;
   height: 50px;
-  background-image: url(../images/message.png);
+  background-image: url(../images/message_1.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 70% 70%;
   border-radius: 30px;
   margin: auto;
-  box-shadow: 3px 3px 3px cornflowerblue;
 }
 .woman-message-wrap {
   width: 80px;
@@ -1972,13 +1969,12 @@ header {
 .woman-message-icon {
   width: 50px;
   height: 50px;
-  background-image: url(../images/message.png);
+  background-image: url(../images/message_2.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 70% 70%;
   border-radius: 30px;
   margin: auto;
-  box-shadow: 3px 3px 3px pink;
 }
 
 .location_area {
