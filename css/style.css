@@ -208,6 +208,7 @@ html {
     background: #f4ad2d; }
 
 body {
+  background-color: bisque;
   line-height: 1.7;
   color: #364d59 !important;
   font-weight: 300;
@@ -2028,6 +2029,7 @@ header {
 /* line 35, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
 .location_area .location_info .location_inner .location_top {
   margin-bottom: 42px;
+  background-color: bisque;
 }
 
 /* line 38, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
