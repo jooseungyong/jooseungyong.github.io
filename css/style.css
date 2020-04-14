@@ -2015,6 +2015,7 @@ header {
 .location_area .location_info .location_inner {
   background: #fff;
   padding: 54px 60px 54px 60px;
+  background-color: bisque;
 }
 
 @media (max-width: 767px) {
@@ -2029,7 +2030,6 @@ header {
 /* line 35, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
 .location_area .location_info .location_inner .location_top {
   margin-bottom: 42px;
-  background-color: bisque;
 }
 
 /* line 38, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
@@ -2100,4 +2100,19 @@ header {
   background-repeat: no-repeat;
   background-position: center center;
   position: fixed;
+}
+.couple_name_wrap {
+  margin: auto;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.couple_name1 {
+  display: inline-block;
+  width: 50px;
+}
+.couple_name2 {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 24px;
 }
