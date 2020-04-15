@@ -1960,6 +1960,40 @@ header {
   font-size: 10px !important;
 }
 
+.location_how_to {
+  display: inline-block;
+  margin-left: 20px; 
+  height: 40px; 
+  line-height: 40px;
+  color:#C78665;
+  font-family: "Muli", sans-serif;
+}
+
+.location_subway_img {
+  width: 40px;
+  height: 40px;
+  background-size: 100%;
+  background-image: url(../images/subway.png);
+  float: left;
+}
+.location_border {
+  width: calc(100% - 60px);
+  float: left;
+  height: 1px;
+  background-color: darkgray;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.location_car_img {
+  width: 40px;
+  height: 40px;
+  background-size: 100%;
+  background-image: url(../images/car.png);
+  float: left;
+}
+
 .location_map_icon_wrap {
 
 }
