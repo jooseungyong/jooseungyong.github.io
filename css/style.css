@@ -764,6 +764,7 @@ h1, h2, h3, h4, h5,
 /* Blocks */
 .site-section-cover {
   position: relative;
+  background-image: url('../images/joo_banner.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
