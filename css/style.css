@@ -288,7 +288,7 @@ h1, h2, h3, h4, h5,
 
 .site-section {
   background-color: #f6e1fa;
-  box-shadow: 3px 3px 3px 3px pink;
+  box-shadow: 0px 0px 10px 0px pink;
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
@@ -1785,7 +1785,6 @@ header {
   padding-bottom: 30px;
   padding-top: 30px;
   background-color: #f6e1fa;
-  box-shadow: 3px 3px 3px 3px pink;
 }
 .man-call-wrap {
   width: 80px;
@@ -1798,8 +1797,11 @@ header {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 70% 70%;
-  border-radius: 30px;
+  border-radius: 15px;
   margin: auto;
+  box-shadow: 5px 5px 3px gray;
+  background-color: #dcedd5;
+  margin-bottom: 5px;
 }
 .woman-call-wrap {
   width: 80px;
@@ -1812,8 +1814,11 @@ header {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 70% 70%;
-  border-radius: 30px;
+  border-radius: 15px;
   margin: auto;
+  box-shadow: 5px 5px 3px gray;
+  background-color: #dcedd5;
+  margin-bottom: 5px;
 }
 .man-message-wrap {
   width: 80px;
@@ -1826,8 +1831,11 @@ header {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 70% 70%;
-  border-radius: 30px;
+  border-radius: 15px;
   margin: auto;
+  box-shadow: 5px 5px 3px gray;
+  background-color: #f0e1b4;
+  margin-bottom: 5px;
 }
 .woman-message-wrap {
   width: 80px;
@@ -1840,13 +1848,16 @@ header {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 70% 70%;
-  border-radius: 30px;
+  border-radius: 15px;
   margin: auto;
+  box-shadow: 5px 5px 3px gray;
+  background-color: #f0e1b4;
+  margin-bottom: 5px;
 }
 
 .location_area {
   position: relative;
-  box-shadow: 0px 0px 0px 1px pink;
+  box-shadow: 0px 0px 10px 0px pink;
 }
 
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
