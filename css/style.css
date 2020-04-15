@@ -287,8 +287,7 @@ h1, h2, h3, h4, h5,
     box-shadow: none !important; }
 
 .site-section {
-  background-color: #f6e1fa;
-  box-shadow: 0px 0px 10px 0px pink;
+  background-color: #f5e6f3;
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
@@ -1784,7 +1783,7 @@ header {
   text-align: center;
   padding-bottom: 30px;
   padding-top: 30px;
-  background-color: #f6e1fa;
+  background-color: #f5e6f3;
 }
 .man-call-wrap {
   width: 80px;
@@ -1857,7 +1856,6 @@ header {
 
 .location_area {
   position: relative;
-  box-shadow: 0px 0px 10px 0px pink;
 }
 
 /* line 4, ../../Arafath/CL/CL september/212. Wedding/HTML/scss/_location.scss */
