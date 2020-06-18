@@ -1,4 +1,10 @@
 /* Base */
+ul, ol {
+  list-style: none;
+  list-style-image: none;
+  padding: 0;
+  margin: 0;
+}
 html {
   overflow-x: hidden; }
 
@@ -208,7 +214,7 @@ html {
     background: #f4ad2d; }
 
 body {
-  background-color: #f7d7f7;
+  background-color: #FDF7F3;
   line-height: 1.7;
   color: #364d59 !important;
   font-weight: 300;
@@ -287,7 +293,7 @@ h1, h2, h3, h4, h5,
     box-shadow: none !important; }
 
 .site-section {
-  background-color: #f5e6f3;
+  background-color: #FDF7F3;
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
@@ -1781,77 +1787,117 @@ header {
   font-family: "Muli", sans-serif;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 30px;
   padding-top: 30px;
-  background-color: #f5e6f3;
-}
-.man-call-wrap {
-  width: 80px;
+  padding-bottom: 30px;
+  background-color: #FDF7F3;
   display: inline-block;
+  width: 100%;
+  font-size: 14px;
+}
+.contact-image {
+  height: 50px;
+  background-image: url("../images/contact_flower.png");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 120px;
+}
+.husband {
+  width: 100%;
+  float: left;
+  position: relative;
+  padding: 0px;
+  text-align: center;
+}
+.husband-gretting {
+  padding: 10px;
+  font-size: 1.0em;
+  width: 55%;
+  float: left;
+  text-align: right;
+  font-family: "Muli", sans-serif;
+}
+.wife {
+  width: 100%;
+  float: left;
+  position: relative;
+  padding: 0px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.wife-gretting {
+  padding: 10px;
+  font-size: 1.0em;
+  width: 55%;
+  float: left;
+  text-align: right;
+  font-family: "Muli", sans-serif;
 }
 .man-call-icon {
-  width: 50px;
-  height: 50px;
-  background-image: url(../images/call_1.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 70% 70%;
-  border-radius: 15px;
-  margin: auto;
-  box-shadow: 5px 5px 3px gray;
-  background-color: #dcedd5;
-  margin-bottom: 5px;
-}
-.woman-call-wrap {
-  width: 80px;
-  display: inline-block;
-}
-.woman-call-icon {
-  width: 50px;
-  height: 50px;
+  float: left;
+  width: 30px;
+  height: 30px;
   background-image: url(../images/call_2.png);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 70% 70%;
+  background-size: 100%;
   border-radius: 15px;
-  margin: auto;
-  box-shadow: 5px 5px 3px gray;
-  background-color: #dcedd5;
-  margin-bottom: 5px;
+  margin: 8px;
 }
-.man-message-wrap {
-  width: 80px;
-  display: inline-block;
-}
-.man-message-icon {
-  width: 50px;
-  height: 50px;
-  background-image: url(../images/message_1.png);
+.woman-call-icon {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/call_1.png);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 70% 70%;
+  background-size: 100%;
   border-radius: 15px;
-  margin: auto;
-  box-shadow: 5px 5px 3px gray;
-  background-color: #f0e1b4;
-  margin-bottom: 5px;
+  margin: 8px;
 }
-.woman-message-wrap {
-  width: 80px;
-  display: inline-block;
-}
-.woman-message-icon {
-  width: 50px;
-  height: 50px;
+.man-message-icon {
+  float: left;
+  width: 30px;
+  height: 30px;
   background-image: url(../images/message_2.png);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 70% 70%;
+  background-size: 100%;
   border-radius: 15px;
-  margin: auto;
-  box-shadow: 5px 5px 3px gray;
-  background-color: #f0e1b4;
-  margin-bottom: 5px;
+  margin: 8px;
+}
+.woman-message-icon {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/message_1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  border-radius: 15px;
+  margin: 8px;
+}
+.toggle {
+  max-height: 500px;
+  transition: max-height 0.25s ease-in;
+  overflow: hidden;
+}
+.toggle.off {
+  max-height: 0;
+  transition: max-height 0.25s ease-out;
+}
+.arrow {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-size: 100%;
+  background-image: url(../images/arrow_up.svg);
+}
+.arrow.off {
+  background-image: url(../images/arrow_down.svg);
 }
 
 .location_area {
@@ -1891,7 +1937,7 @@ header {
 .location_area .location_info .location_inner {
   background: #fff;
   padding: 54px 60px 54px 60px;
-  background-color: #f7d7f7;
+  background-color: #FDF7F3;
 }
 
 @media (max-width: 767px) {
@@ -2000,7 +2046,7 @@ header {
   width: 50px;
   height: 50px;
   margin: 20px;
-  border-radius: 10px;
+  border-radius: 25px;
   box-shadow: 5px 5px 3px gray;
 }
 
@@ -2018,6 +2064,7 @@ header {
   display: block;
   margin-top: 30px;
   margin-bottom: 30px;
+  font-family: "Muli", sans-serif;
 }
 .couple_name1 {
   display: inline-block;

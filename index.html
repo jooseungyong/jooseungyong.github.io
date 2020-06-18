@@ -106,7 +106,7 @@
 
         <div class="row mb-5 ">
           <div class="col-md-7 text-center mx-auto">
-            <span class="subtitle-39293">Gallery TEST</span>
+            <span class="subtitle-39293">Gallery</span>
             <h2 class="serif">See Our Story</h2>
           </div>
         </div>
@@ -200,6 +200,104 @@
       </div>
     </div> <!-- END .site-section -->
 
+    <div class="call-message-section">
+      <div class="contact-image"></div>
+      <dl class="husband">
+        <dt class="husband-gretting">신랑에게 축하인사</dt>
+        <dd onclick="document.location.href='tel:010-6303-0419'" class="man-call-icon"></dd>
+        <dd onclick="document.location.href='sms:010-6303-0419'" class="man-message-icon"></dd>
+      </dl>
+       
+      <dl class="wife">
+        <dt class="wife-gretting">신부에게 축하인사</dt>
+        <dd onclick="document.location.href='tel:010-4040-8748'" class="woman-call-icon"></dd>
+        <dd onclick="document.location.href='sms:010-6303-0419'" class="woman-message-icon"></dd>
+      </dl>
+
+      <div class="parent-content" style="position: relative;overflow: hidden;width: 100%;padding-top: 15px;">
+        <p class="parent-call" style="height: 50px;background-color: #575757;color: #ffffff;line-height: 50px;" onclick="openParent()">혼주분께 연락하기
+          <a class="arrow"></a>
+        </p>
+        <ul class="toggle">
+          <li class="husband-parent" style="float: left;width: 50%;text-align: center;">
+            <span>신랑측 혼주</span>
+            <ul style="margin-top:20px;">
+              <li>
+                <span>아버지</span>
+                <span>주정환</span>
+                <ul class="btn_contact" style="margin: 10px;">
+                  <li style="display: inline-block;margin-right: 10px;">
+                    <a href="tel:010-3724-4054">
+                      <img src="./images/call_2.png" style="width: 30px;height: 30px;">
+                    </a>
+                  </li>
+                  <li style="display: inline-block;">
+                    <a href="sms:010-3724-4054">
+                      <img src="./images/message_2.png" style="width: 30px;height: 30px;">
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span>어머니</span>
+                <span>박선규</span>
+                <ul class="btn_contact" style="margin: 10px;">
+                  <li style="display: inline-block;margin-right: 10px;">
+                    <a href="tel:010-5421-7929">
+                      <img src="./images/call_2.png" style="width: 30px;height: 30px;">
+                    </a>
+                  </li>
+                  <li style="display: inline-block;">
+                    <a href="sms:010-5421-7929">
+                      <img src="./images/message_2.png" style="width: 30px;height: 30px;">
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li class="wife-parent" style="float: left;width: 50%;text-align: center;">
+            <span>신부측 혼주</span>
+            <ul style="margin-top:20px;">
+              <li>
+                <span>아버지</span>
+                <span>주정환</span>
+                <ul class="btn_contact" style="margin: 10px;">
+                  <li style="display: inline-block;margin-right: 10px;">
+                    <a href="tel:010-3724-4054">
+                      <img src="./images/call_1.png" style="width: 30px;height: 30px;">
+                    </a>
+                  </li>
+                  <li style="display: inline-block;">
+                    <a href="sms:010-3724-4054">
+                      <img src="./images/message_1.png" style="width: 30px;height: 30px;">
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span>어머니</span>
+                <span>박선규</span>
+                <ul class="btn_contact" style="margin: 10px;">
+                  <li style="display: inline-block;margin-right: 10px;">
+                    <a href="tel:010-5421-7929">
+                      <img src="./images/call_1.png" style="width: 30px;height: 30px;">
+                    </a>
+                  </li>
+                  <li style="display: inline-block;">
+                    <a href="sms:010-5421-7929">
+                      <img src="./images/message_1.png" style="width: 30px;height: 30px;">
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      
+    </div>
 
     <section class="location_area">
       <div class="location_info">
@@ -243,25 +341,7 @@
 
 
 
-    <div class="call-message-section">
-      <div class="man-call-wrap">
-        <div onclick="document.location.href='tel:010-6303-0419'" class="man-call-icon"></div>
-        <div>신랑전화</div>
-      </div>
-      <div onclick="document.location.href='sms:010-6303-0419'" class="man-message-wrap">
-        <div class="man-message-icon"></div>
-        <div>신랑문자</div>
-      </div>
-      <div onclick="document.location.href='tel:010-4040-8748'" class="woman-call-wrap">
-        <div class="woman-call-icon"></div>
-        <div>신부전화</div>
-      </div>
-      <div onclick="document.location.href='sms:010-6303-0419'" class="woman-message-wrap">
-        <div class="woman-message-icon"></div>
-        <div>신부문자</div>
-      </div>
-
-    </div>
+    
 
 
   </div>
@@ -285,6 +365,15 @@
   <!-- <script src="js/main.js"></script> -->
 
   <script>
+    $('.parent-call').click(function(event) {
+      if ($('.toggle').hasClass('off')) {
+        $('.toggle').removeClass('off');
+        $('.arrow').removeClass('off');
+      } else {
+        $('.toggle').addClass('off');
+        $('.arrow').addClass('off');
+      }      
+    });
     $('#clock').countdown('2020/10/09 11:20:00', function (event) {
       $(this).html(event.strftime(
         '<div class="countdown_wrap d-flex"><div  class="single_countdown"><h3>%D</h3><span>Days</span></div><div class="single_countdown"><h3>%H</h3><span>Hours</span></div><div class="single_countdown"><h3>%M</h3><span>Minutes</span></div><div class="single_countdown"><h3>%S</h3><span>Seconds</span></div></div>'
